@@ -1,2 +1,4 @@
 import chemical
-print("hello")
+import reynolds
+
+reynolds.plot_reynolds()
