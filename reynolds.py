@@ -6,6 +6,7 @@ def eqn(f, E, Re):
     return -2 * np.sqrt(f) * np.log10(E / 3.8 + 2.51 / (Re * np.sqrt(f))) - 1
 
 def plot_reynolds():
+    # constans and evenly spaced points on logarithmic scale
     E_values = np.logspace(-6, -1, 12)
     array = np.logspace(3.47713, 8, 100)
 
